@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body{font-family: 'Cutive Mono';
+text-align: center;}
+#header{
+background-color:black;
+padding:20px;
+margin-top: -10px;
+    margin-right: -10px;
+    margin-left:-10px;
+  
+}
+#header h1{
+color: white;
+font-size: 4em;
+margin: auto;
+}
+
+#nav{
+background-color: black;
+ 
+    margin-top:0px;
+   
+}
+
+        
+#nav ul li{
+display: inline;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:1em;
+
+}
+
+#nav ul li a:hover{
+    color:yellow;
+}
+
+#jumbotron{
+    postition:absolute;
+   
+}
+#jumbotron img {
+    height:300px;
+    width:512px;
+    margin-top:1em;
+}
+
+#roundAbout div{
+display: inline-block;
+
+}
+.btn{
+position:absolute;
+width:240px;
+height:240px;
+}
+.btn img{
+width: 240px;
+height:240px;
+}
+#button img{
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+#button2{
+margin-left:-242px;
+}
+#explanation{
+    display:inline-block;
+width:30%;}
+#footer{
+background-color: black;}
+
+#footer ul li {
+display:inline;
+}
+.social a img{
+width 30px;
+height:30px;}
+
+#highlight ul{
+margin:0px;
+margin-bottom: -50px;    
+}
+.socialh{
+display:inline;}
+
+.socialh a img{
+width 30px;
+height:30px;}
+
